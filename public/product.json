@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "brand": "Dell",
+    "price": 999.99,
+    "specifications": ["Intel Core i7", "16GB RAM", "512GB SSD"],
+    "numberOfSales": 56,
+    "activity": "موجود",
+    "imgLink": "/src/assets/img/products1.png"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "brand": "iPhone",
+    "price": 799.99,
+    "specifications": ["A15 Bionic chip", "6.1-inch Super Retina XDR display", "128GB storage"],
+    "numberOfSales": 23,
+    "activity": "ناموجود",
+    "imgLink": "/src/assets/img/products2.png"
+  },
+  {
+    "id": 3,
+    "name": "Gaming Console",
+    "brand": "PlayStation 5",
+    "price": 499.99,
+    "specifications": ["AMD Ryzen Zen 2", "16GB GDDR6 RAM", "825GB SSD"],
+    "numberOfSales": 78,
+    "activity": "موجود",
+    "imgLink": "/src/assets/img/products3.png"
+  },
+  {
+    "id": 4,
+    "name": "Wireless Earbuds",
+    "brand": "Samsung",
+    "price": 149.99,
+    "specifications": ["Active Noise Cancellation", "Bluetooth 5.0", "Water-resistant"],
+    "numberOfSales": 42,
+    "activity": "موجود",
+    "imgLink": "/src/assets/img/products4.png"
+  },
+  {
+    "id": 5,
+    "name": "Keyboard",
+    "brand": "Samsung",
+    "price": 149.99,
+    "specifications": ["Active Noise Cancellation", "Bluetooth 5.0", "Water-resistant"],
+    "numberOfSales": 20,
+    "activity": "موجود"
+  },
+  {
+    "id": 6,
+    "name": "Mouse",
+    "brand": "Samsung",
+    "price": 149.99,
+    "specifications": ["", "Bluetooth- ", "Water-resistant"],
+    "numberOfSales": 76,
+    "activity": "ناموجود",
+    "imgLink": "/src/assets/img/products4.png"
+  },
+  {
+    "id": 7,
+    "name": "Iphone 13 pro max",
+    "brand": "Apple",
+    "price": 149.99,
+    "specifications": ["Active Noise Cancellation", "Bluetooth 5.0", "Water-resistant"],
+    "numberOfSales": 42,
+    "activity": "موجود"
+  }
+]
