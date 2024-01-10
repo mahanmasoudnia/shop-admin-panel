@@ -1,0 +1,29 @@
+// tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//-----base-----------
+@import "./base/font";
+@import "./base//base";
+
+.linear-purple {
+  background: linear-gradient(to right, #7166d2, #534aba);
+}
+
+.sidebar li{
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 1rem 1rem 1rem 14rem;
+  margin-bottom: 0.8rem;
+  }
+.active {
+  background: #EFEFEF;
+  color: #000;
+  border-radius: 1.2rem;
+  padding: 1.8rem 1rem 1.8rem 8rem;
+  margin-bottom: 3rem;
+  box-shadow: 0px 1px 1px 0px #FFF inset, 0px -2px 1px 0px rgba(0, 0, 0, 0.05) inset;
+
+}
