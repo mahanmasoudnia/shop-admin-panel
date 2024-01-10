@@ -16,15 +16,15 @@ const OverView = () => {
 
       <Card className="bg-light-Gray p-[0.8rem] text-[3.2rem] flex flex-row h-fit">
         <Card className=" bg-light-Gray w-1/2  flex p-[0.8rem] items-start gap-[1.6rem] flex-row h-fit">
-          <FiShoppingBag className="p-[1rem]   text-[3.2rem] rounded-full bg-[#B1E5FC]" />
-          <div className="font-semibold flex flex-col items-start">
+          <FiShoppingBag className="p-[1rem] text-[3.2rem] rounded-full bg-[#B1E5FC]" />
+          <div className="font-medium flex flex-col items-start">
             <span className="text-[1.1rem] max-sm:text-[0.7rem] text-Gray ">سفارش دهندگان</span>
             <h1 className="text-[4.2rem] max-sm:text-[2rem]">1024</h1>
           </div>
         </Card>
         <Card className=" w-1/2 bg-white shadow-md flex p-[0.8rem] items-start gap-[1.6rem] flex-row h-fit ">
           <FiShoppingBag className="p-[1rem] text-[3.2rem] rounded-full bg-[#B1E5FC]" />
-          <div className="font-semibold flex flex-col items-start">
+          <div className="font-medium flex flex-col items-start">
             <span className="text-[1.1rem] max-sm:text-[0.7rem] text-Gray ">سفارش دهندگان</span>
             <p className="text-[4.2rem] max-sm:text-[2rem]">1024</p>
           </div>

@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  font-family: "Sans-Mobile", "sans-serif","sans-web" !important;
+  font-family: "Sans-Mobile", "sans-serif", "sans-web" !important;
   font-size: 62.5%;
   font-weight: 400;
   color: #000;
@@ -42,7 +42,7 @@ body {
   flex-direction: column;
   max-height: fit-content;
 }
-img{
+img {
   width: 6.4rem;
   height: 6.4rem;
 }
@@ -52,14 +52,14 @@ img{
 .app {
   min-height: 100vh;
 }
-.table{
+.table {
   direction: rtl;
 }
 a,
 button {
   cursor: pointer;
 }
-input{
+input {
   outline: none;
   background: none;
 }
@@ -67,15 +67,12 @@ input{
   outline: none;
   outline-offset: none;
 }
-h2{
-  // text-[1.8rem] font-semibold w-fit 
+h2 {
+  // text-[1.8rem] font-semibold w-fit
   font-size: 1.8rem;
   font-weight: 500;
   width: fit-content;
-  
-  
 }
-
 
 .fade-enter {
   opacity: 0;
@@ -98,3 +95,7 @@ h2{
 
   transition: opacity 250ms ease-out, transform 300ms ease;
 }
+
+// .Toastify__toast-body {
+//   font-size: 1.6rem;
+// }
