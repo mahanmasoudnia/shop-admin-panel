@@ -4,7 +4,7 @@ import httpService from "../../services/httpService";
 
 const initialState = {
   productsData: "",
-  loading: "", // Change the type to string or ""
+  loading: "", 
   error: "",
   data: [],
 };
