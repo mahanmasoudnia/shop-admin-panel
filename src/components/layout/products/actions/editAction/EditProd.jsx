@@ -25,12 +25,7 @@ const EditProd = ({ prod }) => {
 
   const onSubmit = async(data) => {
    await dispatch(updateProduct(data));
-    toast.success("عملیات ویرایش با موفقیت انجام شده!", {
-      position: "top-right",
-      autoClose: 1000,
-      closeOnClick: true,
-      pauseOnHover: true,
-    });
+    toast.success("عملیات ویرایش با موفقیت انجام شده!")
     document.getElementById("my_modal_7 edit").close();
   };
 

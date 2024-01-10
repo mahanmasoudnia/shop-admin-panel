@@ -10,12 +10,7 @@ const Delete = ({ id }) => {
   const dispatch = useDispatch();
   const handleDelete = () => {
     id !== null && dispatch(deleteProduct(id));
-    toast.success("عملیات حذف با موفقیت انجام شده!", {
-      position: "top-right",
-      autoClose: 1000,
-      closeOnClick: true,
-      pauseOnHover: true,
-    });
+    toast.success("عملیات حذف با موفقیت انجام شده!");
     document.getElementById("my_modal_7 delete").close();
   };
 

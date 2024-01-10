@@ -11,7 +11,14 @@ import "react-toastify/dist/ReactToastify.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Provider store={store}>
-    <ToastContainer style={{fontSize:"1.6rem",  fontFamily: "sans-serif" }} rtl={true} />
+      <ToastContainer
+        position="top-right"
+        autoClose={2000}
+        toastStyle={{fontFamily:"Sans-Web", fontSize: "1.6rem"}}
+        closeOnClick={true}
+        pauseOnHover={true}
+        rtl={true}
+      />
       <App />
     </Provider>
   </BrowserRouter>

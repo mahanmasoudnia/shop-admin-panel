@@ -14,22 +14,12 @@ axios.interceptors.response.use(null, (error) => {
     error.response.status >= 400 &&
     error.response.status < 500;
   if (!expectedErr) {
-    toast.error("Server Problem", {
-      position: "top-right",
-      autoClose: 2000,
-      closeOnClick: true,
-      pauseOnHover: true,
-    });
+    toast.error("Server Problem");
   }
   if (error.response.status === 401) {
     // window.location.href = "/login";
     localStorage.removeItem("token");
-    toast.error("Sign in Again", {
-      position: "top-right",
-      autoClose: 2000,
-      closeOnClick: true,
-      pauseOnHover: true,
-    });
+    toast.error("Sign in Again");
     return Promise.reject(error);
   }
   // if (token) {
