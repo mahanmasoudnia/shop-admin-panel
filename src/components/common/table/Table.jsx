@@ -119,7 +119,9 @@ const ShareTable = ({ data, columns, ...props }) => {
         </tbody>
       </table>
       <div className="h-2" />
-      <div className="flex items-center gap-2">
+      <div className="flex items-center  justify-between text-[1.6rem]">
+      <div>
+
         <button className="border rounded p-1" onClick={() => table.setPageIndex(0)} disabled={!table.getCanPreviousPage()}>
           {"<<"}
         </button>
@@ -136,14 +138,15 @@ const ShareTable = ({ data, columns, ...props }) => {
         >
           {">>"}
         </button>
+      </div>
         <span className="flex items-center gap-1">
-          <div>Page</div>
+          <div>صفحه</div>
           <strong>
-            {table.getState().pagination.pageIndex + 1} of {table.getPageCount()}
+            {table.getState().pagination.pageIndex + 1} از {table.getPageCount()}
           </strong>
         </span>
         <span className="flex items-center gap-1">
-          | Go to page:
+           برو به صفحه:
           <input
             type="number"
             defaultValue={table.getState().pagination.pageIndex + 1}
@@ -162,7 +165,7 @@ const ShareTable = ({ data, columns, ...props }) => {
         >
           {[10, 20, 30, 40, 50].map((pageSize) => (
             <option key={pageSize} value={pageSize}>
-              Show {pageSize}
+              نمایش {pageSize}
             </option>
           ))}
         </select>
